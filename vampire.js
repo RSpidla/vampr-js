@@ -65,5 +65,32 @@ class Vampire {
   }
 }
 
-module.exports = Vampire;
+// Original Vampire
+const original = new Vampire("Original", 800);
 
+// Vampire Bart
+const bart = new Vampire("Bart", 900);
+
+// Vampire Ansel
+const ansel = new Vampire("Ansel", 1200);
+
+// Vampire Elgort
+const elgort = new Vampire("Elgort", 1400);
+
+// Vampire Sarah
+const sarah = new Vampire("Sarah", 1800);
+
+// Vampire Andrew
+const andrew = new Vampire("Andrew", 1985);
+
+
+
+original.addOffspring(bart)
+original.addOffspring(ansel)
+
+ansel.addOffspring(sarah)
+ansel.addOffspring(elgort)
+
+ansel.addOffspring(andrew)
+
+module.exports = Vampire;

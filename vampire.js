@@ -81,7 +81,7 @@ const elgort = new Vampire("Elgort", 1400);
 const sarah = new Vampire("Sarah", 1800);
 
 // Vampire Andrew
-const andrew = new Vampire("Andrew", 1985);
+const andrew = new Vampire("Andrew", 2000);
 
 
 
